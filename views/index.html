@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Timestamp Microservice</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<img src="https://avatars0.githubusercontent.com/jaketripp?&s=300" alt="A picture of me (Jake Tripp)">
+		<br/>
+
+		<div class="icons">
+			<a href="http://jaketripp.com" target="_blank"><i class="address card outline icon"></i></a>
+			<a href="https://github.com/jaketripp" target="_blank"><i class="github icon"></i></a>
+			<a href="https://www.linkedin.com/in/jake-tripp/" target="_blank"><i class="linkedin icon"></i></a>
+			<a href="https://medium.com/@jaketripp" target="_blank"><i class="medium icon"></i></a>
+		</div>
+
+
+		<h1>FreeCodeCamp API Project #1: Timestamp Microservice</h1>
+
+		<blockquote>
+			<p>User stories:</p>
+			<ul>
+				<li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</li>
+				<li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+        <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+			</ul>
+		</blockquote>
+
+		<code>https://nonchalant-cold.glitch.me/December 15, 2015</code>
+    <br>
+    <code>https://nonchalant-cold.glitch.me/1450137600000</code>
+    <h3>Example output:</h3>
+    <code>
+        {
+          "unix": 1450137600000,
+          "natural": "December 15, 2015"
+        }
+    </code>
+	</div>
+
+</body>
+
+</html>
